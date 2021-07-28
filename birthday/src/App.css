@@ -1,6 +1,181 @@
-.App{
+*{
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.App{
+color: white;
+background-color: var(--primary-color);
+}
+
+.content{
+
+ 
+  background-position: center;
 }
 :root{
-  --primary-color:#04FB84;
+  --primary-color:#C7D2FE;
+  --dark-blue:#4338CA;
+}
+.nav{
+  text-align: center;
+  background-color:var(--dark-blue);
+  padding: 1rem;
+  text-decoration: underline;
+  border-bottom: black 1.7px solid;
+}
+
+.alertBar{
+  text-align: center;
+  background-color:var(--primary-color);
+  color: black;
+  height: auto;
+}
+.alertBar p{
+  background-color:var(--dark-blue);
+color: black;
+opacity: 80%;
+font-size: 0.9rem;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+height: 20px;
+padding:0.5rem;
+}
+
+.alertBar img{
+  font-size: 0.5rem;
+  padding-left: 0rem;
+  
+ 
+}
+.card{
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid black;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  height: 60vh;
+  padding-top: 7rem;
+}
+
+.card input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 0.4rem;
+
+  border-radius: 0.5rem;
+  border:none;
+  height: 1.5rem;
+}
+
+.checkBtn{
+
+
+display: block;
+margin:  2rem auto;
+  text-align: center;
+  padding:0.5rem 1rem;
+border-radius: 1.1rem;
+font-weight: bolder;
+cursor: pointer;
+color: white;
+background-color: var(--dark-blue);
+border: none;
+border: 2px solid black;
+}
+
+label{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+
+.footer{
+  height: 10vh;
+  background-color: var(--dark-blue);
+position: relative;
+}
+
+.links{
+text-align: center;
+margin-top: 2rem;
+padding-top: 2rem;
+}
+.links span{
+  padding-left: 1rem;
+  padding-right: 1rem ;
+  margin-top: 2rem;  
+  cursor: pointer;
+}
+.links span:hover{
+  text-decoration: underline;
+}
+.links a{
+  padding-left: 1rem;
+  padding-right: 1rem ;
+  margin-top: 2rem;  
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+.links a:hover{
+  text-decoration: underline;
+}
+.footer small{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding:0.5rem;
+}
+.footer small:hover{
+color: black;
+}
+
+.output{
+
+ margin-top: 2rem;
+
+}
+.output h3{
+  display: block;
+  color: black;
+  margin: 1rem auto;
+  width: 10%;
+  text-decoration: underline;
+  font-size: 1.5rem;
+
+}
+.text{
+  display: block;
+color: var(--dark-blue);
+font-weight: 700;
+font-size: 1.5rem;
+padding: 1rem;
+  text-align: center;
+  margin: 1rem auto;
+
+}
+.outputImg{
+  margin: 1rem auto;
+  justify-content: center;
+  height: 25rem;
+  width: 25rem;
+  display: block;
 }

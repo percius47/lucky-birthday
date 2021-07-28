@@ -11,12 +11,12 @@ input::-webkit-inner-spin-button {
 }
 .App{
 color: white;
-background-color: var(--primary-color);
+ background-color: var(--primary-color);
 }
 
 .content{
 
- 
+
   background-position: center;
 }
 :root{
@@ -33,14 +33,15 @@ background-color: var(--primary-color);
 
 .alertBar{
   text-align: center;
-  background-color:var(--primary-color);
+
   color: black;
   height: auto;
+  z-index: 1;
 }
 .alertBar p{
-  background-color:var(--dark-blue);
+  background-color:#818CF8;
 color: black;
-opacity: 80%;
+/* opacity: 80%; */
 font-size: 0.9rem;
 width: auto;
 margin-left: auto;
@@ -108,7 +109,7 @@ label{
 }
 
 .footer{
-  height: 10vh;
+  height: 14vh;
   background-color: var(--dark-blue);
 position: relative;
 }
@@ -139,10 +140,14 @@ padding-top: 2rem;
   text-decoration: underline;
 }
 .footer small{
+
+  display: block;
   position: absolute;
-  bottom: 0;
-  right: 0;
-  padding:0.5rem;
+ width: auto;
+right: 2%;
+bottom: 2%;
+ font-size: 0.7rem;
+
 }
 .footer small:hover{
 color: black;

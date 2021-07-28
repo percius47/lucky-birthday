@@ -52,11 +52,8 @@ else{
       onClick={()=>{
         setAlert("none");
         
-      }        
-      }
-      
-      style={{cursor:"pointer"}}
-      />
+      } }      
+      style={{cursor:"pointer"}}/>
            
             </p>
 </div>
